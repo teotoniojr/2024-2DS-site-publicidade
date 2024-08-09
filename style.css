@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul: #003049ff;
+    --vermelho: #d62828ff;
+    --laranja: #f77f00ff;
+    --amarelo: #fcbf49ff;
+    --baunilha: #eae2b7ff;
+}
