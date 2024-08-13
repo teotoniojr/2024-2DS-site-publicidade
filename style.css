@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,4 +11,17 @@
     --laranja: #f77f00ff;
     --amarelo: #fcbf49ff;
     --baunilha: #eae2b7ff;
+    --fonte-titulo: "New Amsterdam", sans-serif;
+    --fonte-texto: "Noto Sans", sans-serif;
 }
+
+body{
+    background-color: var(--azul);
+    font-family: var(--fonte-texto);
+    font-size: 16px;
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
+}
+
