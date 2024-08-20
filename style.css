@@ -47,3 +47,35 @@ body{
     transition: 0.5s;
 }
 
+.principal-capa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px 12px;
+}
+
+.principal-capa__conteudo{
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.principal-capa__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    color: var(--azul);
+    margin-bottom: 12px;
+
+}
+
+.principal-capa__texto{
+    font-size: 24px;
+    margin-top: 24px;
+}
+
