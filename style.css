@@ -30,8 +30,9 @@ body{
 }
 
 .cabecalho-img{
-    width: 15%;
+    width: 10%;
     border-radius: 10%;
+    margin-left: 25px;
 }
 .cabecalho-nav__link{
     font-family: var(--fonte-titulo);
@@ -52,7 +53,7 @@ body{
     justify-content: space-around;
     align-items: center;
     gap: 24px;
-    background-image: url(img/fundo.jpg);
+    background: linear-gradient(45deg, var(--laranja), var(--amarelo));
     background-repeat: no-repeat;
     background-size: cover;
     padding: 24px 12px;
@@ -68,7 +69,7 @@ body{
 
 .principal-capa__titulo{
     font-family: var(--fonte-titulo);
-    font-size: 32px;
+    font-size: 52px;
     color: var(--azul);
     margin-bottom: 12px;
 
@@ -79,5 +80,9 @@ body{
     margin-top: 24px;
 }
 
+.prrincipal-capa__combotao{
+    background-color: var(--azul);
+    color: var(--baunilha);
+}
 
 
