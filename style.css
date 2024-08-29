@@ -80,9 +80,26 @@ body{
     margin-top: 24px;
 }
 
-.prrincipal-capa__combotao{
+.principal-capa__combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.principal-capa__botao{
     background-color: var(--azul);
     color: var(--baunilha);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 1em;
+    text-decoration: none;
+}
+
+.principal-capa__botao:hover{
+    padding: 1.2em;
+    background-color: var(--baunilha);
+    color: var(--azul);
+    transition: 0.5s;
 }
 
 
